@@ -1,0 +1,21 @@
+.parent{
+    min-height: 100vh;
+}
+
+.children{
+    display: flex;
+}
+
+.div2{
+    position: fixed;
+}
+
+// background: #e6fce5;
+.div3{
+    background-color: #e6fce5;
+    border-radius: 120px 0 0 0;
+    padding: 5%;
+    margin-left: 13%;
+    width: 100%;
+    min-height: 100vh;
+}
