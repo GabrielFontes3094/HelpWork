@@ -1,0 +1,95 @@
+// Header
+.header-parent{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+}
+
+//  Logo
+.header1{
+    width: 15%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.header1 img{
+    width: 40%;
+    border-radius: 25px;
+}
+
+// -------------- barra de pesquisa ----------------
+.header-sub1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.search-bar {
+    padding: 10px 10px 10px 40px; /* Espaço para a lupa à esquerda */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+    box-shadow: 2px 2px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Ícone da lupa dentro do campo de busca */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-container img {
+    position: absolute;
+    left: 12px; /* Posição do ícone */
+    width: 18px;
+    height: 18px;
+    opacity: 0.6;
+}
+
+/* Removendo o botão de busca separado */
+.search-button {
+    display: none;
+}
+
+// -------------- Status ----------------
+.header2{
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.header2 img{
+    width: 10%;
+}
+
+.header-sub2{
+    display: flex;
+    justify-content: end;
+}
+
+// --------------------- Usuario -----------------
+.header3{
+    width: 15%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header3 img{
+    width: 50%;
+}
