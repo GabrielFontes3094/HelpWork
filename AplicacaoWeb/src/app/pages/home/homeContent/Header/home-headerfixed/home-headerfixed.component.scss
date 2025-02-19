@@ -1,0 +1,15 @@
+.headerFixed {
+    position: fixed;
+    top: -60px; /* Começa oculto */
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    transition: top 0.3s ease-in-out;
+}
+
+.headerFixed.show {
+    top: 0; /* Quando rolar, ele aparece */
+}
